@@ -45,3 +45,9 @@ uvicorn folder_1.folder_2.main:app --reload
 cd folder_1/folder_2
 uvicorn main:app --reload
 ```
+
+## Документация FastAPI
+
+```
+http://127.0.0.1:8000/docs
+```
