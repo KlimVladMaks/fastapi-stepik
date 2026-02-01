@@ -15,7 +15,7 @@ deactivate
 
 ## Установка Python-пакетов
 
-Список всех установленных Python-пакетов нужно хранить в `requirements.txt`
+Список всех установленных Python-пакетов нужно хранить в `requirements.txt`.
 
 ```
 # Установка всех Python-пакетов из requirements.txt
@@ -23,4 +23,10 @@ pip install -r requirements.txt
 
 # Запись всех установленных Python-пакетов в requirements.txt
 pip freeze -> requirements.txt
+```
+
+## Запуск приложения
+
+```
+uvicorn main:app --reload
 ```
