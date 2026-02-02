@@ -46,8 +46,15 @@ cd folder_1/folder_2
 uvicorn main:app --reload
 ```
 
+Также приложение можно запустить собственным инструментом FastAPI:
+
+```
+fastapi dev main.py
+```
+
 ## Документация FastAPI
 
 ```
 http://127.0.0.1:8000/docs
+http://localhost:8000/redoc
 ```
